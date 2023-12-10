@@ -1,0 +1,21 @@
+body{
+    /* background-image: url(asset/7536921.png);
+    /* background-position: center right; */
+    /* background-size: cover; */
+    /* background-repeat: round; */ 
+    
+}
+.judul{
+    color: red !important;
+}
+#judul1{
+    color: black;
+}
+
+div p:last-child{
+    color: aquamarine;
+}
+a:active{
+    color: red;
+    font-size: xx-large;
+}

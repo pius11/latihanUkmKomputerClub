@@ -1,0 +1,14 @@
+#parent{
+}
+#box1{
+    
+margin: 10px 51px 25px 35px;
+border: solid 9px red;
+
+
+}
+#box2{
+    margin: 100px 900px 25px 400px;
+    padding: 50px;
+border: solid 9px;
+}
