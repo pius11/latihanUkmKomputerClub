@@ -1,0 +1,16 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: 1600px 800px ;
+    
+    background-repeat: no-repeat;
+}
+.tgl{
+    font-family: fantasy;
+    padding: 10px 500px 10px 640px;
+    font-size: 25px;
+}
+.jam{
+    font-family: fantasy;
+    padding: 30px 500px 10px 589px;
+    font-size: 160px;
+}

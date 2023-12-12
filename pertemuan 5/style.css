@@ -1,14 +1,21 @@
 #parent{
 }
 #box1{
-    
-margin: 10px 51px 25px 35px;
+    width: 60px;
+    height: 70px;
 border: solid 9px red;
+box-sizing: border-box ;
 
 
 }
 #box2{
     margin: 100px 900px 25px 400px;
-    padding: 50px;
+    padding:  15px 50px 15px 78px;
 border: solid 9px;
+}
+
+body{
+    overflow: hidden;
+    border: solid ;
+    width: 1000vw;
 }
