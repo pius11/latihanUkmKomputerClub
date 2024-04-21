@@ -1,0 +1,64 @@
+.navbar a{
+    background-color: red;
+    height: 4000px;
+    width: 300px;
+   
+}
+.navbar img{
+    height:40px;
+    width: 50px;
+    
+}
+/* .container{
+
+    border: 20px solid;
+    
+} */
+/* .container p{
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+} */
+/* .container h1{
+    display: inline-block;
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+} */
+.kotak{
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+    overflow: auto;
+}
+.kotak h5{
+    background-color: blue;
+    width: 80%;
+}
+
+.container{
+    margin-left: 30px;
+    position: relative;
+}
+div{
+    width: 200px;
+    height: 200px;
+    
+}
+.satu{
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.dua{
+    position: absolute;
+    left: 200px;
+    bottom: 10px;
+    background-color: rebeccapurple;
+}
+.tiga{
+    
+    background-color: red;
+}
+
