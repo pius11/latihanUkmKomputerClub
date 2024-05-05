@@ -231,4 +231,205 @@ body{
 .card_divisi:hover{
     transform: scale(1.05);
     transition: all .3s ease-in-out; 
+
 }
+
+/* prooker */
+
+.proker{
+    margin-top:100px ;
+    padding: 10px;
+
+}
+
+.section_proker{
+    font-weight: 800;
+    font-size: 35px;
+    color:#F8F9FA ;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.section_proker_pendukung{
+    font-weight: 400;
+    padding-block: 30px;
+    color: #F8F9FA;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.bagian_proker{
+    width: 93%;
+    margin: auto;
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+    margin-block: 80px;
+
+}
+.card{
+    color: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    width: 360px;
+    position: relative;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.logoproker{
+    position: absolute;
+    background-color: #F8F9FA;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    top: -60px;
+    left: 141px;
+}
+.logoproker img{
+    width: 80%;
+
+}
+.namaproker{
+    margin: 95px 0 20px ;
+    text-align: center;
+}
+.deskripsiproker{
+    
+    text-align: justify;
+    padding: 15px;
+}
+/* .card:hover{
+    border: 2px solid #5F1BBB;
+    color: #5F1BBB;
+    transform: scale(1.05);
+    transition: all .3s ease-in-out; 
+} */
+
+.bagian-fungsio{
+    width: 93%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+
+}
+
+.deskripsi-fungsio{
+    width: 45%;
+    padding: 30px;
+}
+
+.deskripsi-fungsio h2{
+    color: #F8F9FA;
+    font-size: 40px;
+
+}
+.deskripsi-fungsio h5{
+    color: #F8F9FA;
+    padding-bottom: 20px;
+    
+}
+
+.gambar-fungsio{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar-fungsio img{
+    width: 150%;
+
+}
+
+.tombol-fungsio{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    background-color: #5F1BBB;
+    border-radius: 34px;
+    padding-block:8px ;
+}
+.tombol-fungsio a{
+    color: #F8F9FA;
+    margin-inline: 30px;
+
+}
+.tombol-fungsio i{
+    background-color: #F8F9FA;
+    color: #5F1BBB;
+    padding:10px ;
+    border-radius: 50%;
+}
+.tombol-fungsio:hover{
+    transform: scale(0.95);
+    transition: all 0.2s ease;
+}
+
+footer{
+    background-color:#19242E ;
+    text-align: center;
+    margin-top: 100px;
+}
+.copyright{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    color: #F8F9FA;
+}
+
+.sosmed{
+    width: 235px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    font-size: 28px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 3px solid #F8F9FA;
+}
+
+.sosmed a{
+    color: #F8F9FA;
+  }
+  
+  .ig:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(0.95);
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .tt:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(0.95);
+    color: #111111;
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+  }
+  
+  .yt:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(0.95);
+    color: red;
+  }
+  
+  .linked:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(0.95);
+    color: #04669A;
+  }
