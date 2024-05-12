@@ -12,6 +12,8 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- icon -->
+<!-- CDN AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/LOGO UKM PUTIH.png">
     <title>UKM Computer Club</title>
   </head>
@@ -59,7 +61,8 @@
 
     <!-- devisi section -->
 
-    <div class="divisi" id="divisi">
+    <div class="divisi" id="divisi"   data-aos="fade-up"
+    data-aos-duration="3000">
       <h2 class="section_divisi">Divisi UKM Computer club</h2>
       <p class="section_divisi_pendukung">ada 4 divisi di unit kegiatan mahasiswa computer club yang merupakan pendalaman lebih khusus mengenai ketertarikan dan minat para mahasiswa</p>
       <div class="bagian_divisi_utama">
@@ -181,7 +184,7 @@
           <h5>Ada xx orang yang tergabung menjadi fungsionaris di UKM Computer Club</h5>
           
           <div class="tombol-fungsio">
-            <a href="#">Lihat fungsionaris</a>
+            <a href="./fungsio.html">Lihat fungsionaris</a>
             <i class="fa-solid fa-arrow-right"></i>
           </div>
         </div>
@@ -216,5 +219,11 @@
         &copy UKM Computer Club 2024
       </div>
     </footer>
+<!-- CDN AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
